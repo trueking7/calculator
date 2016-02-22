@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/editOperand1"
         android:layout_marginTop="25dp" />
 
     <EditText
@@ -34,13 +34,13 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
-        android:id="@+id/editText2" />
+        android:id="@+id/editOperand2" />
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff">
+        android:gravity="center">
 
         <Button
             android:layout_width="wrap_content"
@@ -48,28 +48,28 @@
             android:text="+"
 
             style="?android:attr/buttonStyleSmall"
-            android:id="@+id/button" />
+            android:id="@+id/btnAddition" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="-"
             style="?android:attr/buttonStyleSmall"
-            android:id="@+id/button2" />
+            android:id="@+id/btnSubtraction" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="?android:attr/buttonStyleSmall"
             android:text="/"
-            android:id="@+id/button3" />
+            android:id="@+id/btnDivision" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*"
             style="?android:attr/buttonStyleSmall"
-            android:id="@+id/button4" />
+            android:id="@+id/btnMultiplicaiton" />
     </LinearLayout>
 
     <TextView
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="0.0"
-        android:id="@+id/textView3"
+        android:id="@+id/txtResult"
         android:gravity="center" />
 
 </LinearLayout>
